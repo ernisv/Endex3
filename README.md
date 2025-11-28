@@ -61,7 +61,7 @@ So it was solved by getting additional 200W 24V PSU and it taking care of poweri
 At this point and quite a bit of calibrations of tuning, this amazing print was produced by both toolheads collaboratively.
 
 <p align="center">
-<img src="media/calibration.png" alt="Idex calibration done" width="200" border="2" align="center">
+<img src="media/calibration.jpg" alt="Idex calibration done" width="200" border="2" align="center">
 </p>
 
 ## Details / component changes
