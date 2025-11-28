@@ -10,6 +10,9 @@ Prototype:
 Idex in action:
 [Idex in action](media/idex-in-action.mp4)
 
+## Support the project
+TBD
+
 ## Goals
 
 * fully functional Idex
@@ -88,7 +91,30 @@ Also if your drawers have different components - adaptations and variations of t
 
 ## Details / component changes
 
-### 
+### X gantry
+2020 extrusion
+old X belt / motor
+additional X belt
+ooze prevention
+dual Z recommendation
+gantry levelling
+
+### 2nd toolhead
+stealthburner
+mechanical z adjustments
+Volcano mod
+nema17 pancake mod
+V6 mod ??
+
+### original toolhead
+bltouch
+suitable alternatives ?
+
+### second board
+
+### additional PSU
+
+### Klipper configs
 
 ## Contributing mods / improvements
 TBD
