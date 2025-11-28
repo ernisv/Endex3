@@ -13,9 +13,9 @@ Idex in action:
 ## Summary / goals
 
 * fully functional Idex
-* * multimaterial printing without excessive filament/print time waste
-* * copy mode
-* * mirror mode
+ * multimaterial printing without excessive filament/print time waste
+ * copy mode
+ * mirror mode
 * no loss of printable area for at least one of the heads
 * footprint width not to exceed 50cm
 * reuse of commodity 3d printing parts of Ender3 era
