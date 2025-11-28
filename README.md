@@ -2,10 +2,12 @@
 Ender 3 Idex conversion
 
 Design:
-![Conversion in CAD](media/ender-cad.png "Conversion in CAD")
+
+<img src="media/ender-cad.png" alt="Conversion in CAD" width="300">
 
 Prototype:
-![Conversion in reality](media/ender-full.png "Conversion in reality")
+
+<img src="media/ender-full.png" alt="Conversion in reality" width="300">
 
 Idex in action:
 [Idex in action](media/idex-in-action.mp4)
