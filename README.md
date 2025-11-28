@@ -10,8 +10,10 @@ Prototype:
 Idex in action:
 [Idex in action](media/idex-in-action.mp4)
 
-## Support the project
-TBD
+## Would like to support?
+If you like the project or find it useful, you may support it here:
+* https://buymeacoffee.com/ernisv
+* https://patreon.com/ernisv
 
 ## Goals
 
