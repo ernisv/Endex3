@@ -64,4 +64,31 @@ At this point and quite a bit of calibrations of tuning, this amazing print was 
 <img src="media/calibration.jpg" alt="Idex calibration done" width="200" border="2" align="center">
 </p>
 
+It looked like a success.. but bigger prints still failed after some time - printheads were clogging. Especially the original Ender3 hotend. It was already modified previously - all metal heatbreak and Volcano nozzle for bigger flowrate, it even had bigger 60mm hotend fan in place of stock 3010 to solve the previous issues with heat creep. And this worked for single toolhead prints, when there was constant flow of filament being pushed through.
+
+However now, when it needed to sit idle for minutes between extrusions, old issues came back.. so in the end to complete Idex conversion, stock hotend had to be replaced.
+Checking the drawers yielded V6 hotend and direct drive Titan extruder. None of public existing designs did not fit due to contraints of additional X belt and second toolhead, so it ment one - back to the CAD again..
+And it worked out, but produced this monstrocity. This is not a suggestion to use the same for anyone wanting to do similar conversion by any means :) 
+
+<p align="center">
+<img src="media/very_custom_hotend.png" alt="Idex calibration done" width="200" border="2" align="center">
+</p>
+
+And finally it was working, evidence below !
+
+<p align="center">
+<img src="media/dragons.jpg" alt="Idex prints" width="300" border="2" align="center">
+</p>
+
+What looked like a quick, relatively straightforward mod, took way more than expected, but now it's there. It's shared here as there are not a lot of public designs leveraging most stock parts.
+
+Now let's dive into each individual component/change to be able to create more Endexes.
+
+Also if your drawers have different components - adaptations and variations of this conversion could be gathered here, please raise a Pull Request with suggested changes.
+
 ## Details / component changes
+
+### 
+
+## Contributing mods / improvements
+TBD
