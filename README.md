@@ -10,4 +10,15 @@ Prototype:
 Idex in action:
 [Idex in action](media/idex-in-action.mp4)
 
-## Introduction / story
+## Summary / goals
+
+* fully functional Idex
+** multimaterial printing without excessive filament/print time waste
+** copy mode
+** mirror mode
+* no loss of printable area for at least one of the heads
+* footprint width not to exceed 50cm
+* reuse of commodity 3d printing parts of Ender3 era
+
+## Conversion story
+TBD
