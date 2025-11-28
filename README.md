@@ -61,16 +61,20 @@ In fact stock PSU now had to support 3 new stepper motors:
 - additional fans.
 So it was solved by getting additional 200W 24V PSU and it taking care of powering heated bed, so that all the rest could stay on original PSU.
 
-At this point and quite a bit of calibrations of tuning, this amazing print was produced by both toolheads collaboratively.
+At this point and quite a bit of calibrations and tuning, this amazing print was produced by both toolheads collaboratively.
 
 <p align="center">
 <img src="media/calibration.jpg" alt="Idex calibration done" width="200" border="2" align="center">
 </p>
 
-It looked like a success.. but bigger prints still failed after some time - printheads were clogging. Especially the original Ender3 hotend. It was already modified previously - all metal heatbreak and Volcano nozzle for bigger flowrate, it even had bigger 60mm hotend fan in place of stock 3010 to solve the previous issues with heat creep. And this worked for single toolhead prints, when there was constant flow of filament being pushed through.
+It looked like a success.. but bigger prints still failed after some time - printheads were clogging. Especially the original Ender3 hotend. 
+It was already modified previously - all metal heatbreak and Volcano nozzle for bigger flowrate, it even had bigger 60mm hotend fan in place of stock 3010 to solve the previous issues with heat creep. 
+And this worked for single toolhead prints, when there was constant flow of filament being pushed through.
 
-However now, when it needed to sit idle for minutes between extrusions, old issues came back.. so in the end to complete Idex conversion, stock hotend had to be replaced.
-Checking the drawers yielded V6 hotend and direct drive Titan extruder. None of public existing designs did not fit due to contraints of additional X belt and second toolhead, so it ment one - back to the CAD again..
+However now, when it needed to sit idle for minutes between extrusions - old issues came back.. so in the end to complete Idex conversion, stock hotend had to be replaced.
+
+Checking the drawers yielded V6 hotend and direct drive Titan extruder. None of public existing designs did fit due to contraints of additional X belt and second toolhead, so it ment one - back to the CAD again..
+
 And it worked out, but produced this monstrocity. This is not a suggestion to use the same for anyone wanting to do similar conversion by any means :) 
 
 <p align="center">
