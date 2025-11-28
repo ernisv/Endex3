@@ -73,7 +73,7 @@ And this worked for single toolhead prints, when there was constant flow of fila
 
 However now, when it needed to sit idle for minutes between extrusions - old issues came back.. so in the end to complete Idex conversion, stock hotend had to be replaced.
 
-Checking the drawers yielded V6 hotend and direct drive Titan extruder. None of public existing designs did fit due to contraints of additional X belt and second toolhead, so it ment one - back to the CAD again..
+Checking the drawers yielded V6 hotend and direct drive Titan extruder. None of existing public designs for direct drive with hardware i had at hand did fit due to contraints of additional X belt and second toolhead, so it ment one - back to the CAD again..
 
 And it worked out, but produced this monstrocity. This is not a suggestion to use the same for anyone wanting to do similar conversion by any means :) 
 
