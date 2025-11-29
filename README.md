@@ -131,7 +131,7 @@ Belt still goes inside the extrusion like before.
 Now when original X motor was relocated to the right side, to keep weights balanced - new X motor should go to left side on new mount plate.
 The required new GT2 6mm belt length is about 90cm.
 
-### X endstops
+#### X endstops
 Left endstop is a microswitch having 2 holes for M3 with 10mm distance between them.
 <p align="center">
 <img src="media/left-endstop.jpg" alt="X Extrusions" width="300" border="2" align="center">
@@ -142,8 +142,16 @@ Right one has a mount sliding into extrusion and bolting on original x endstop.
 <img src="media/right-endstop.jpg" alt="X Extrusions" width="300" border="2" align="center">
 </p>
 
+#### Ooze prevention
+Idling heads will ooze some filament even if slicer reduces idle temperatures - they won't drop immediately. To help with that, X gantry includes ooze blockers, that cover the nozzles when heads are in idle park positions.
 
-ooze prevention
+They are slightly adjustable, printed in ABS and are supposed to have clamped strips of high temp silicone for the immediate contact area with the nozzles. Simplest way is to take heatblock silicone socks and cut out strips from them.
+
+<p align="center">
+<img src="media/left-ooze-block.jpg" alt="Left ooze block" width="300" border="2">
+<img src="media/right-ooze-block.jpg" alt="Left ooze block" width="300" border="2">
+</p>
+
 dual Z recommendation
 gantry levelling
 
@@ -166,3 +174,5 @@ suitable alternatives ?
 
 ## Contributing mods / improvements
 TBD
+
+List of improvements needing work can be found in [TODO.txt](TODO.txt).
