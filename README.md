@@ -191,9 +191,30 @@ Because of that a mount with mechanically adjustable height was designed.
 
 Here some springs were used together with M5 adjustability bolts, you need to adjust both bolts equally to avoid skew.
 
-### original toolhead
-bltouch
-suitable alternatives ?
+The alignment process i used:
+* home the printer, clear the heightmap
+* via Klipper web UI move the original nozzle somewhere near the middlge of the bed and lower to minimal distance from bed like in "paper test" (paper sheet just lightly gripped between nozzle and bed surface)
+* raise Z, change the active head to secondary
+* near the same bed point carefully try to lower the nozzle to the same z position original nozzle hand
+  * if paper grips earlier or later than first nozzle - raise the Z, adjust the adjustment screws and recheck 
+
+### Original toolhead
+Stock bowden toolhead should work fine with this conversion. My prototype used volcano nozzles, which are 8.5mm longer on both toolheads, but basically what's required is that both tools would have nozzles at roughly the same height, that would be within adjutability range of Idex head mount. 
+So if stock head and nozzle is used - stealthburner should also use similar to stock nozzle, not Volcano.
+
+#### Bed probe
+Also most likely you already use some kind of bed probe, prototype printer used Bltouch. Common probe mounts might occupy more space than necessary on the side of toolhead, which would limit how close both heads could come together. So this conversion includes Bltouch mount that moves it furter forward, but occupying less space along X axis.
+
+#### Suitable alternatives
+Prototype needed some custom adjustments, because it used direct drive conversion with full size NEMA17 motor and most direct drive mods with such motor did not clear space above the X extrusion to clear the belts and allow additional travel to the right. 
+
+But that does not mean there wouldn't be suitable direct drive mods with more compact components that are compatible.
+
+So what needs to be considered when choosing direct drive mod:
+* clearance for the additional belts above X extrusion,
+* clearance of additional travel to the right - it should not hit Y extrusion,
+* distance from the left of the head - isn't it limiting how close both heads could come together,
+* the endstop from the right.
 
 ### second board
 
