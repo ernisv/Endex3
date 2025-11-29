@@ -124,7 +124,7 @@ To doublecheck - distance from the new extrusion left end to the first hole cent
 <img src="media/x-extrusions.jpg" alt="X Extrusions" width="400" border="2" align="center">
 </p>
 
-Note: it needs to be v-slot extrusion, not t-slot, cause t-slot is not designed for v-wheels.
+*Note:* it needs to be v-slot extrusion, not t-slot, cause t-slot is not designed for v-wheels.
 
 Once pilot holes are drilled - you will need to complete the drilling and tap the threads in M3 holes.
 
@@ -187,7 +187,7 @@ I had pancake NEMA18 motor, V6 heatsink with Volcano nozzle, so i used these mod
 
 * [V6+Volcano mod](https://www.printables.com/model/561529-voron-stealthburner-v6volcano-toolhead-extension-m)
 * [NEMA17 pancake mod](https://www.printables.com/model/454292-voron-stealthburner-clockwork2-extruder-nema17-v1)
-  * note: use idler from the step files, as STL has some older incompatible part (see comments)
+  * *note:* use idler from the step files, as STL has some older incompatible part (see comments)
 
 
 #### Mechanical Z adjustments
@@ -255,7 +255,7 @@ How i connected additional PSU to work only as dedicated PSU for heated bed:
 * New PSU -24V <--> Old PSU -24V
 * New PSU +24V <--> Bed +
 * Board Bed - <--> Bed -
-* Board Bed + <--> Unconnected!
+* Board Bed + <--> *Unconnected!*
 
 This is done so, because MOSFET on the board controls connection to the -, while Bed+ provides constant +24V from PSU.
 
