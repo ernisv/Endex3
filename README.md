@@ -110,6 +110,8 @@ Also if your drawers have different components - adaptations and variations of t
 ## Details / component changes
 Changes to individual components are broken down below. If unsure about dimensions / assembly - step files and/or original [Onshape CAD](https://cad.onshape.com/documents/81a2e00ae9c5806eab5e1c54/w/5cac38db4e9fa7317548eab6/e/0372a484cd82c8e6febd21dc?renderMode=0&uiState=692aace23f08f25fcdbc0587) could be checked.
 
+STLs from CAD are exported here: [STL](STL).
+
 When "left" or "right" is mentioned, it's from perspective of looking at the printer from the front.
 
 ### X gantry
