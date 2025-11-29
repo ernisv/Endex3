@@ -178,9 +178,18 @@ I had pancake NEMA18 motor, V6 heatsink with Volcano nozzle, so i used these mod
   * note: use idler from the step files, as STL has some older incompatible part (see comments)
 
 
-##### Mechanical z adjustments
-asdfasdf
+#### Mechanical Z adjustments
+Nozzles of both Idex heads should be aligned vertically in relation to each other with quite a high precision (to be at least a fractions of of a layer's hight).
 
+While for dual-material printing maybe it could be adjusted by software z-offsets, for copy/mirror mode especially - they need to be physically aligned.
+Because of that a mount with mechanically adjustable height was designed.
+
+<p align="center">
+<img src="media/idex_head_mount.jpg" alt="Idex adjustable head mount" width="300" border="2">
+<img src="media/stealthburner-side.jpg" alt="Idex adjustable head mount" width="300" border="2">
+</p>
+
+Here some springs were used together with M5 adjustability bolts, you need to adjust both bolts equally to avoid skew.
 
 ### original toolhead
 bltouch
