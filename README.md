@@ -114,6 +114,13 @@ To doublecheck - distance from the new extrusion left end to the first hole cent
 
 Note: it needs to be v-slot extrusion, not t-slot, cause t-slot is not designed for v-wheels.
 
+Once pilot holes are drilled - you will need to complete the drilling and tap the threads in M3 holes.
+
+You will need:
+* 3mm drill bit,
+* 5.5mm drill bit,
+* M3 tap,
+* 11mm drill bit or dremel to clear space for M5 bolt heads from one side.
 
 old X belt / motor
 additional X belt
