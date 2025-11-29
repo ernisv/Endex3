@@ -200,7 +200,7 @@ The alignment process i used:
 
 ### Original toolhead
 Stock bowden toolhead should work fine with this conversion. My prototype used volcano nozzles, which are 8.5mm longer on both toolheads, but basically what's required is that both tools would have nozzles at roughly the same height, that would be within adjutability range of Idex head mount. 
-So if stock head and nozzle is used - stealthburner should also use similar to stock nozzle, not Volcano.
+So if stock head and nozzle is used - stealthburner should also use nozzle of similar height to stock nozzle, not Volcano height.
 
 #### Bed probe
 Also most likely you already use some kind of bed probe, prototype printer used Bltouch. Common probe mounts might occupy more space than necessary on the side of toolhead, which would limit how close both heads could come together. So this conversion includes Bltouch mount that moves it furter forward, but occupying less space along X axis.
@@ -220,9 +220,26 @@ So what needs to be considered when choosing direct drive mod:
 * distance from the left of the head - isn't it limiting how close both heads could come together,
 * the endstop from the right.
 
-### second board
+### Second control board
+Prototype printer had already replaced stock board to SKR Mini E3, however as this and most usual replacement boards would not support additional 2 stepper motors, heater, thermistor and fan - second board would be needed.
+I used stock Ender3 board for that.
 
-### additional PSU
+In general you just need to connect and setup 2 boards to the device running Klipper (usually SBC like Raspberry Pi or regular linux PC).
+
+### Additional PSU
+As it turns out stock PSU capacity might be not enough to power all additional hardware - it either needs to be replaced by more powerful one - 550W should be enough.
+Or as a more budget option - add a smaller additional PSU to just power the heated bed, which would take quite a big portion of load from original PSU.
+Moreover there is a place to mount PSU like original Ender3's did - on the right/back.
+
+Mounting options are also plenty, it depends on exact PSU you have. The mount included in conversion is for Blow 24V PSU (still running.. still not blown!).
+
+The stock Ender3v2 bed should take around 220W.
+
+Klipper's config setting `max_power` could also be used to try limiting power consumption.
+
+<p align="center">
+<img src="media/probe_mount.jpg" alt="Bed probe mount" width="300" border="2">
+</p>
 
 ### Klipper configs
 
