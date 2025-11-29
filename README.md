@@ -89,16 +89,25 @@ And finally it was working, evidence below !
 <img src="media/dragons.jpg" alt="Idex prints" width="300" border="2" align="center">
 </p>
 
-What looked like a quick, relatively straightforward mod, took way more than expected, but now it's there. It's shared here as there are not a lot of public designs leveraging most stock parts.
+What looked like a quick, relatively straightforward mod, took way more than expected - but now it's finished and working. It's shared here as there are not a lot of public designs leveraging mostly stock parts.
 
 Now let's dive into each individual component/change to be able to create more Endexes.
 
 Also if your drawers have different components - adaptations and variations of this conversion could be gathered here, please raise a Pull Request with suggested changes.
 
 ## Details / component changes
+Changes to individual components are broken down below. If unsure about dimensions / assembly - step files and/or original [Onshape CAD](https://cad.onshape.com/documents/81a2e00ae9c5806eab5e1c54/w/5cac38db4e9fa7317548eab6/e/0372a484cd82c8e6febd21dc?renderMode=0&uiState=692aace23f08f25fcdbc0587) could be checked.
 
 ### X gantry
-2020 extrusion
+#### Longer 2020 extrusion
+As stock x axis has space only for original head, putting another one on the same would significantly reduce the bed area accessible by any single head, so extension of this is necessary.
+This is likely the most mechanically difficult part of the conversion as it needs replacement of stock extrusion and drilling correct holes at the same places as in old one.
+
+The length of new 200 v-slot extrusion should be 410mm (can be reduced to 395mm, but endstop mount should be mounted in some more compact case).
+It is important to ensure that the left end of new extrusion is protruding 65mm from the end of original one, then original extrusion could be fixed with the new one and used as a guide for drilling pilot holes.
+To doublecheck - distance from the new extrusion left end to the first hole center should be 66.4mm.
+
+
 old X belt / motor
 additional X belt
 ooze prevention
