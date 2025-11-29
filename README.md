@@ -137,6 +137,12 @@ Left endstop is a microswitch having 2 holes for M3 with 10mm distance between t
 <img src="media/left-endstop.jpg" alt="X Extrusions" width="300" border="2" align="center">
 </p>
 
+Right one has a mount sliding into extrusion and bolting on original x endstop.
+<p align="center">
+<img src="media/right-endstop.jpg" alt="X Extrusions" width="300" border="2" align="center">
+</p>
+
+
 ooze prevention
 dual Z recommendation
 gantry levelling
