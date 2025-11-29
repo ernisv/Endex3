@@ -15,6 +15,11 @@ If you like the project or find it useful, you may support it here:
 * https://buymeacoffee.com/ernisv
 * https://patreon.com/ernisv
 
+## Would like to get a support?
+* Ask in above platforms
+* Use Github issues
+* Ask in [discord](https://discord.com/channels/1444310985740648448/1444310986616995925)
+
 ## Goals
 
 * fully functional Idex
@@ -244,6 +249,8 @@ How i connected additional PSU to work only as dedicated PSU for heated bed:
 * New PSU +24V <--> Bed +
 * Board Bed - <--> Bed -
 * Board Bed + <--> Unconnected!
+
+This is done so, because MOSFET on the board controls connection to the -, while Bed+ provides constant +24V from PSU.
 
 <p align="center">
 <img src="media/additional_psu.jpg" alt="Additional PSU" width="300" border="2">
