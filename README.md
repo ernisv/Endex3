@@ -47,7 +47,7 @@ If you like the project or find it useful, you may support it here:
   * control new toolhead's part cooling fans
   * monitor new toolhead's temperature
 * additional power needs  
-  * can be small additional 200W PSU that could power the heated bed
+  * can be small additional ~220W PSU that could power the heated bed
   * or complete 550W+ replacement for original PSU
   
 ## Conversion story
