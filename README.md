@@ -18,7 +18,7 @@ If you like the project or find it useful, you may support it here:
 ## Would like to get a support?
 * Ask in above platforms
 * Use Github issues
-* Ask in [discord](https://discord.com/channels/1444310985740648448/1444310986616995925)
+* Ask in [discord](https://discord.gg/aMRszwNQSe)
 
 ## Goals
 
