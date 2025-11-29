@@ -243,7 +243,12 @@ Klipper's config setting `max_power` could also be used to try limiting power co
 
 ### Klipper configs
 
-## Contributing mods / improvements
-TBD
+[Klipper configs] directory contains example of Klipper config files used in the prototype. It won't be drop-in config, but rather an example to base on.
 
-List of improvements needing work can be found in [TODO.txt](TODO.txt).
+## Contributing mods / improvements
+If you make an improvement or adaptation - let others know by raising a PR! 
+We'll merge it into this repository and maybe this could become a modular and flexible project.
+
+If it's not a change to existing parts, but alternative/adaptation, it could go to separate directory with small individual description, then we could create easily searchable list of mods.
+
+List of improvements currently needing work can be found in [TODO.txt](TODO.txt).
