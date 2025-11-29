@@ -238,7 +238,7 @@ The stock Ender3v2 bed should take around 220W.
 Klipper's config setting `max_power` could also be used to try limiting power consumption.
 
 <p align="center">
-<img src="media/probe_mount.jpg" alt="Bed probe mount" width="300" border="2">
+<img src="media/additional_psu.jpg" alt="Additional PSU" width="300" border="2">
 </p>
 
 ### Klipper configs
