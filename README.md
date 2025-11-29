@@ -110,6 +110,8 @@ Also if your drawers have different components - adaptations and variations of t
 ## Details / component changes
 Changes to individual components are broken down below. If unsure about dimensions / assembly - step files and/or original [Onshape CAD](https://cad.onshape.com/documents/81a2e00ae9c5806eab5e1c54/w/5cac38db4e9fa7317548eab6/e/0372a484cd82c8e6febd21dc?renderMode=0&uiState=692aace23f08f25fcdbc0587) could be checked.
 
+When left of right is mentioned, it's from perspective of looking at the printer from the front.
+
 ### X gantry
 #### Longer 2020 extrusion
 As stock x axis has space only for original head, putting another one on the same would significantly reduce the bed area accessible by any single head, so extension of this is necessary.
@@ -117,7 +119,7 @@ This is likely the most mechanically difficult part of the conversion as it need
 
 The length of new 200 v-slot extrusion should be 410mm (could be reduced to around 400mm, but endstop mount will have to be mounted in some more compact way).
 
-It is important to ensure that the left end of new extrusion is protruding 65mm from the end of original one, then original extrusion could be fixed together with the new one and used as a guide for drilling pilot holes.
+It is important to ensure that the left end (from perspective of looking at the printer from the front) of new extrusion is protruding 65mm from the end of original one, then original extrusion could be fixed together with the new one and used as a guide for drilling pilot holes.
 To doublecheck - distance from the new extrusion left end to the first hole center should be 66.4mm.
 
 <p align="center">
@@ -172,7 +174,7 @@ This conversion has no particular solution included, but there are lots of publi
 With increased X gantry weight there are more possibilities for it to get out of alignment. If dual Z solution uses belt-synchronized Z sides, it may be less relevant, but still useful.
 
 This conversion has two blocks of equal size on which X extrusion could be rested until a touch (manually, with heads out of bed area in park positions).
-Right block can be left attached permanently, but left one blocks X head movement when attached, so it is a clip-on to be attached only during alignment.
+Right block can remain attached permanently, but left one blocks X head movement when attached, so it is a clip-on to be attached only during alignment.
 <p align="center">
 <img src="media/tramming-block.jpg" alt="Left ooze block" width="400" border="2">
 </p>
@@ -267,6 +269,12 @@ This is done so, because MOSFET on the board controls connection to the -, while
 
 [Klipper configs](KlipperConfigs) directory contains example of Klipper config files used in the prototype. 
 It won't be drop-in config, but rather an example to base on, so that assumes basic Klipper knowledge.
+
+### Printing the parts
+I tried to design parts to not require supports, so most parts can be printed without them.
+Although i printed all the parts in ABS - i did so because that printer is usually printing in an enclosure, where it could get pretty hot.
+But if it's not the case - ABS would only be recommended for parts closer to hotends, like fan ducts, heatsink mounts, also ooze blocks.
+Other parts should work fine printed with PETG/PLA. 
 
 ## Contributing mods / improvements
 If you make an improvement or adaptation - let others know by raising a PR! 
