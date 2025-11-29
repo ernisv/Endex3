@@ -205,6 +205,10 @@ So if stock head and nozzle is used - stealthburner should also use similar to s
 #### Bed probe
 Also most likely you already use some kind of bed probe, prototype printer used Bltouch. Common probe mounts might occupy more space than necessary on the side of toolhead, which would limit how close both heads could come together. So this conversion includes Bltouch mount that moves it furter forward, but occupying less space along X axis.
 
+<p align="center">
+<img src="media/probe_mount.jpg" alt="Bed probe mount" width="300" border="2">
+</p>
+
 #### Suitable alternatives
 Prototype needed some custom adjustments, because it used direct drive conversion with full size NEMA17 motor and most direct drive mods with such motor did not clear space above the X extrusion to clear the belts and allow additional travel to the right. 
 
