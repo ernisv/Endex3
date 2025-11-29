@@ -103,9 +103,16 @@ Changes to individual components are broken down below. If unsure about dimensio
 As stock x axis has space only for original head, putting another one on the same would significantly reduce the bed area accessible by any single head, so extension of this is necessary.
 This is likely the most mechanically difficult part of the conversion as it needs replacement of stock extrusion and drilling correct holes at the same places as in old one.
 
-The length of new 200 v-slot extrusion should be 410mm (can be reduced to 395mm, but endstop mount should be mounted in some more compact case).
-It is important to ensure that the left end of new extrusion is protruding 65mm from the end of original one, then original extrusion could be fixed with the new one and used as a guide for drilling pilot holes.
+The length of new 200 v-slot extrusion should be 410mm (could be reduced to around 400mm, but endstop mount will have to be mounted in some more compact way).
+
+It is important to ensure that the left end of new extrusion is protruding 65mm from the end of original one, then original extrusion could be fixed together with the new one and used as a guide for drilling pilot holes.
 To doublecheck - distance from the new extrusion left end to the first hole center should be 66.4mm.
+
+<p align="center">
+<img src="media/x-extrusions.jpg" alt="X Extrusions" width="400" border="2" align="center">
+</p>
+
+Note: it needs to be v-slot extrusion, not t-slot, cause t-slot is not designed for v-wheels.
 
 
 old X belt / motor
