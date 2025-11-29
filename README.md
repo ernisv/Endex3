@@ -34,13 +34,17 @@ If you like the project or find it useful, you may support it here:
 
 ## Additional hardware 
 
-* NEMA17 stepper motor for new toolhead
+* NEMA17 stepper motor for new toolhead with wires
 * GT2 6mm belt - about 90cm
 * GT2 pulley for the motor
 * GT2 idler
+* 3 additional V-Wheels
+* various M3 and M5 bolts (inner hex heads)
+* M4 bolt for additional X GT2 idler
+* 2 compression springs (~20nn) for M5 bolts on height adjustable toolhead mount
 * microswitch for second X endstop
 * 410mm 2020 extrusion for longer X gantry
-* new toolhead - extruder with stepper, heating block, thermistor, hotend and part cooling fan
+* new toolhead - extruder with stepper, heating block, thermistor, hotend and part cooling fan, wires
 * Klipper compatible control board to control:
   * 2 stepper motors - additional X motor, additional extruder
   * control new toolhead's heater
