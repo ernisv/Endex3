@@ -95,6 +95,9 @@ And finally it was working, evidence below !
 </p>
 
 What looked like a quick, relatively straightforward mod, took way more than expected - but now it's finished and working. It's shared here as there are not a lot of public designs leveraging mostly stock parts.
+Also i'm sharing the same parts here:
+* https://www.printables.com/@ErnestasVai_465342/models
+* https://www.thingiverse.com/ernisv/designs
 
 Now let's dive into each individual component/change to be able to create more Endexes.
 
