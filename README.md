@@ -70,7 +70,7 @@ In fact stock PSU now had to support 3 new stepper motors:
 - dual X motor (one of previous mods), new extruder motor and new X motor,
 - additional hotend heater,
 - additional fans.
-So it was solved by getting additional 200W 24V PSU and it taking care of powering heated bed, so that all the rest could stay on original PSU.
+So it was solved by getting additional 24V PSU and it taking care of powering heated bed, so that all the rest could stay on original PSU.
 
 At this point and quite a bit of calibrations and tuning, this amazing print was produced by both toolheads collaboratively.
 
