@@ -152,8 +152,18 @@ They are slightly adjustable, printed in ABS and are supposed to have clamped st
 <img src="media/right-ooze-block.jpg" alt="Left ooze block" width="300" border="2">
 </p>
 
-dual Z recommendation
-gantry levelling
+#### Dual Z
+It's not strictly necessary, but highly recommended as weight of x gantry has increased.
+This conversion has no particular solution included, but there are lots of publicly available options for Ender3 v2 dual Z axis.
+
+#### Gantry levelling
+With increased X gantry weight there are more possibilities for it to get out of alignment. If dual Z solution uses belt-synchronized Z sides, it may be less relevant, but still useful.
+
+This conversion has two blocks of equal size on which X extrusion could be rested until a touch (manually, with heads out of bed area in park positions).
+Right block can be left attached permanently, but left one blocks X head movement when attached, so it is a clip-on to be attached only during alignment.
+<p align="center">
+<img src="media/tramming-block.jpg" alt="Left ooze block" width="400" border="2">
+</p>
 
 ### 2nd toolhead
 stealthburner
