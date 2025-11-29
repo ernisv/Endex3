@@ -228,14 +228,22 @@ In general you just need to connect and setup 2 boards to the device running Kli
 
 ### Additional PSU
 As it turns out stock PSU capacity might be not enough to power all additional hardware - it either needs to be replaced by more powerful one - 550W should be enough.
+
 Or as a more budget option - add a smaller additional PSU to just power the heated bed, which would take quite a big portion of load from original PSU.
 Moreover there is a place to mount PSU like original Ender3's did - on the right/back.
 
-Mounting options are also plenty, it depends on exact PSU you have. The mount included in conversion is for Blow 24V PSU (still running.. still not blown!).
+Mounting options are also plenty, it depends on exact PSU you have. The mount included in conversion is for "Blow 24V PSU" i've got (still running.. still not blown!).
 
 The stock Ender3v2 bed should take around 220W.
 
 Klipper's config setting `max_power` could also be used to try limiting power consumption.
+
+How i connected additional PSU to work only as dedicated PSU for heated bed:
+* New PSU ground / earth <--> Old PSU ground / earth
+* New PSU -24V <--> Old PSU -24V
+* New PSU +24V <--> Bed +
+* Board Bed - <--> Bed -
+* Board Bed + <--> Unconnected!
 
 <p align="center">
 <img src="media/additional_psu.jpg" alt="Additional PSU" width="300" border="2">
@@ -243,7 +251,8 @@ Klipper's config setting `max_power` could also be used to try limiting power co
 
 ### Klipper configs
 
-[Klipper configs](KlipperConfigs) directory contains example of Klipper config files used in the prototype. It won't be drop-in config, but rather an example to base on.
+[Klipper configs](KlipperConfigs) directory contains example of Klipper config files used in the prototype. 
+It won't be drop-in config, but rather an example to base on, so that assumes basic Klipper knowledge.
 
 ## Contributing mods / improvements
 If you make an improvement or adaptation - let others know by raising a PR! 
