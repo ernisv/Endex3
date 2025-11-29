@@ -122,8 +122,21 @@ You will need:
 * M3 tap,
 * 11mm drill bit or dremel to clear space for M5 bolt heads from one side.
 
-old X belt / motor
-additional X belt
+#### Original X belt / motor
+With longer extrusion, original X motor placement is no longer an option. But moving motor further to the left would not allow to fit into 50cm width footprint.
+So original X motor had to go to the right side onto newly designed mount where previously was a x belt tensioner.
+Belt still goes inside the extrusion like before.
+
+### Additional X belt
+Now when original X motor was relocated to the right side, to keep weights balanced - new X motor should go to left side on new mount plate.
+The required new GT2 6mm belt length is about 90cm.
+
+### X endstops
+Left endstop is a microswitch having 2 holes for M3 with 10mm distance between them.
+<p align="center">
+<img src="media/left-endstop.jpg" alt="X Extrusions" width="300" border="2" align="center">
+</p>
+
 ooze prevention
 dual Z recommendation
 gantry levelling
