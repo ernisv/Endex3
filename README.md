@@ -10,15 +10,15 @@ Prototype:
 Idex in action:
 [Idex in action](media/idex-in-action.mp4)
 
+## Would like to get a support?
+* Ask in platforms below
+* Use Github issues
+* Ask in [discord](https://discord.gg/aMRszwNQSe)
+
 ## Would like to support?
 If you like the project or find it useful, you may support it here:
 * https://buymeacoffee.com/ernisv
 * https://patreon.com/ernisv
-
-## Would like to get a support?
-* Ask in above platforms
-* Use Github issues
-* Ask in [discord](https://discord.gg/aMRszwNQSe)
 
 ## Goals
 
