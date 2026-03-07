@@ -186,8 +186,8 @@ Right block can remain attached permanently, but left one blocks X head movement
 2nd toolhead has limited access across X axis, so the narrower it is - the less limitation. 
 And Voron's Stealthburner looked like a quite compact option with regard to X-footprint.
 
-Also it's a popular toolhead with logs of mods, which helped me to use the components i had available.
-I had pancake NEMA18 motor, V6 heatsink with Volcano nozzle, so i used these mods to make use of them.
+Also it's a popular toolhead with lots of mods, which helped me to use the components i had available.
+I had pancake NEMA17 motor, V6 heatsink with Volcano nozzle, so i used these mods to make use of them.
 
 * [V6+Volcano mod](https://www.printables.com/model/561529-voron-stealthburner-v6volcano-toolhead-extension-m)
 * [NEMA17 pancake mod](https://www.printables.com/model/454292-voron-stealthburner-clockwork2-extruder-nema17-v1)
